@@ -1,0 +1,38 @@
+.container h1{
+	color: white;
+}
+.navbar-dark{
+	list-style-type: none;
+	margin: 30px;
+	background-color: brown;
+}
+.navbar-nav li{
+	float: left;
+}
+
+.navbar-nav li a {
+	display: inline-block;
+	color: white;
+	text-align: left;
+	padding: 20px 46px;
+	text-decoration: inherit;
+	font-size: 15px;
+}
+.navbar-nav .active a {
+	color: black; font-weight:bold;
+}
+.navbar-right .dropdown-menu li a {
+
+color: black;
+}
+.navbar-right .dropdown-toggle  {
+	color: white;
+}
+
+.navbar-right .dropdown-toggle:hover {
+color: black;
+}
+/*effects on click button*/
+	.navbar-nav li a:hover {
+	background-color: black;
+}
